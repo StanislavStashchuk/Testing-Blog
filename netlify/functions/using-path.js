@@ -1,8 +1,8 @@
 
 exports.handler = async (event, context) => {
-    const path = event.path.replace(/\/\.netlify\/functions\/[^/]*\//, '')
-    const pathParts = (path) ? path.split('/') : []
-    
+    const path = event.path.replace(/\/\.netlify\/functions\/[^/]*\//, '');
+    const pathParts = (path) ? path.split('/') : [];
+
     console.log("event.path");
     console.log(event.path);
 
