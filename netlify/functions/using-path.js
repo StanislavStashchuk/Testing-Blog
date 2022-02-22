@@ -31,7 +31,7 @@ exports.handler = async (event, context) => {
       'statusCode': 200,
       'headers': {
         'Cache-Control': 'no-cache',
-        'Content-Type': 'text/html',
+        'Content-Type': 'text/plain',
       },
       'body': generateHtml(pathParts[0])
     }
