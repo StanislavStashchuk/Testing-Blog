@@ -33,6 +33,6 @@ exports.handler = async (event, context) => {
         'Cache-Control': 'no-cache',
         'Content-Type': 'text/html',
       },
-      'body': generateHtml(pathParts[0])
+      'body': generateHtml(pathParts[4])
     }
   }
